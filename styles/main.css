@@ -1,0 +1,268 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\000037}}
+body {
+  background: #efeeee;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\0000314}}
+.small {
+  font-size: 11px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\0000318}}
+.btn {
+  border-radius: 0;
+  text-transform: uppercase;
+  padding: 8px 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\0000322}}
+.btn-default {
+  color: #777777;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\0000324}}
+.btn-default:hover {
+  background: #fff;
+  color: #ed1111;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\0000329}}
+.btn-muted {
+  background: #d9d9d9;
+  color: #999e9f;
+}
+@media (min-width: 1270px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\0000335}}
+  .container {
+    width: 1250px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\0000340}}
+.container-main {
+  padding-top: 15px;
+  background: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\0000346}}
+.thumbnail {
+  border-radius: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\0000350}}
+.thumbnail-goods {
+  -webkit-transition: .3s;
+          transition: .3s;
+  position: relative;
+  border-radius: 0;
+  margin-top: 35px;
+  padding: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\0000356}}
+.thumbnail-goods:hover {
+  box-shadow: 2px 5px 12px #989595;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\0000359}}
+.thumbnail-goods a > img {
+  margin-top: -33px;
+  border: 1px solid #e5e5e5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\0000365}}
+.thumbnail-goods.sale:before,
+.thumbnail-goods.sale:after {
+  position: absolute;
+  top: 20%;
+  width: 69px;
+  height: 38px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 12px;
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\0000377}}
+.thumbnail-goods.sale:before {
+  content: 'sale';
+  left: 10px;
+  background: #ed1111;
+}
+@media (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\0000381}}
+  .thumbnail-goods.sale:before {
+    left: -1px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\0000385}}
+.thumbnail-goods.sale:after {
+  content: 'new';
+  right: 10px;
+  background: #000;
+}
+@media (max-width: 767px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\0000389}}
+  .thumbnail-goods.sale:after {
+    right: -1px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\0000393}}
+.thumbnail-goods__title {
+  font-size: 14px;
+  margin-top: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\0000397}}
+.thumbnail-goods .caption {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003102}}
+.thumbnail-goods__btn-group {
+  margin-right: -10px;
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003105}}
+.thumbnail-goods__btn-group .btn {
+  width: calc(50% - 10px);
+  margin-right: 4px;
+  padding-left: 0;
+  padding-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003110}}
+.thumbnail-goods__btn-group .btn-default {
+  color: #ed1111;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003112}}
+.thumbnail-goods__btn-group .btn-default:hover {
+  background: #ed8e8e;
+}
+@media (max-width: 1199px) and (min-width: 768px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003116}}
+  .thumbnail-goods__btn-group .btn {
+    font-size: 12px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003125}}
+.thumbnail-footer {
+  padding: 20px 24px 45px;
+  font-size: 11px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003128}}
+.thumbnail-footer .h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 22px;
+  margin-bottom: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003137}}
+.goods__price {
+  font-size: 24px;
+  padding-right: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003141}}
+.goods__price--old {
+  color: #ed1111;
+  font-size: 18px;
+  text-decoration: line-through;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003146}}
+.goods__price-wrap {
+  margin-top: 18px;
+  margin-bottom: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003152}}
+.row-goods {
+  list-style: none;
+  padding-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003156}}
+.row-btn-load-more {
+  margin-top: 20px;
+  margin-bottom: 72px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003159}}
+.row-btn-load-more .btn {
+  font-size: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003166}}
+.list-arrows {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003170}}
+.list-arrows li {
+  position: relative;
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003173}}
+.list-arrows li > a {
+  padding-left: 18px;
+  color: #777777;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003176}}
+.list-arrows li > a:hover {
+  color: #ed8e8e;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003179}}
+.list-arrows li > a:hover:before {
+  color: #ed8e8e;
+  left: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003184}}
+.list-arrows li > a:before {
+  content: "\e250";
+  position: absolute;
+  left: 0;
+  top: 4px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  color: #ed1111;
+  -webkit-transition: .3s;
+          transition: .3s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003202}}
+.list-store-info {
+  margin-top: 23px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003204}}
+.list-store-info > li {
+  margin-left: 36px;
+  margin-bottom: 26px;
+  position: relative;
+  color: #777777;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003209}}
+.list-store-info > li:last-child {
+  margin-bottom: 19px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003212}}
+.list-store-info > li > a {
+  color: #777777;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003214}}
+.list-store-info > li > a:hover {
+  text-decoration: none;
+  color: #ed8e8e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003219}}
+.list-store-info > li .fa {
+  position: absolute;
+  left: -37px;
+  top: -7px;
+  color: #ed1111;
+  font-size: 29px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003226}}
+.list-store-info > li .fa-phone,
+.list-store-info > li .fa-map-marker {
+  left: -35px;
+}
+@media (max-width: 568px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Apache24\/htdocs\/styles\/main\.less}line{font-family:\00003233}}
+  .col-xxs-12 {
+    width: 100%;
+  }
+}
